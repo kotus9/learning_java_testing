@@ -1,3 +1,5 @@
+import static java.lang.Math.sqrt;
+
 class StudyingClasses {
 	public static void main(String[] args){
 		hello("you");
@@ -10,6 +12,13 @@ class StudyingClasses {
 		System.out.println("Периметр окружности " + one.perimeter());
 
 	}
+/*
+	public static double distance(Point p1, Point p2){
+		double dist = sqrt((p1.x - p2.x)*(p1.x - p2.x) +(p1.y - p2.y)*(p1.y - p2.y));
+		return dist;
+	}
+*/
+
 	public static void hello(String person){
 		//String person = "";
 		System.out.println("Hello "+person+"!");
